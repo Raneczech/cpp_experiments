@@ -1,1 +1,1 @@
-# cpp_experiments
+Here are some easy C++ examples for experimenting
