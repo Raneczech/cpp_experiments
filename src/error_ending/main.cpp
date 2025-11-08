@@ -9,8 +9,9 @@ int main(void){
     using namespace std;
 
     //here is your code
-    //use error_detected = true and err_count++ to capture an error
-    
+    //use error_detected = true and err_count++ to capture an error, error_detected, err_count++ and goto err_capture to capture a fatal error
+
+err_capture:
     if(error_checking_enabled){
         if(error_detected){
             cerr << err_count <<  "Errors detected!" << endl;
