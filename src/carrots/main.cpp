@@ -17,7 +17,7 @@ int main(void){
         print("Now you have ");
         cout << carrots;
         println(" carrots.");
-        println("crunch, crunch, crunch. I ate one.");
+        println("crunch, crunch, crunch. That one was tasty.");
         carrots = carrots - 1;
         print("Now you have ");
         cout << carrots;
